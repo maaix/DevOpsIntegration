@@ -2,4 +2,4 @@ def soma(x,y):
    return x+y
 
 def test_soma():
-   assert 5 == soma(2,3)
+   assert 6 == soma(2,3)
