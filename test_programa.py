@@ -1,5 +1,5 @@
-def test_foo_bar():
-   assert True
+def soma(x,y):
+   return x+y
 
-def not_foo_bar():
-   pass
+def test_soma():
+   assert 5 == soma(2,3)
